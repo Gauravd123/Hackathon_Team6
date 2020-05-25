@@ -1,0 +1,12 @@
+[INFO ] 2020-05-25 20:25:01.324 [main] ZigWheels_TestCase - Google Chrome is opened
+[INFO ] 2020-05-25 20:25:45.679 [main] ZigWheels_TestCase - Invalid Email id is entered
+[INFO ] 2020-05-25 20:25:49.253 [main] ZigWheels_TestCase - Error Message successfully captured and printed in the console
+[INFO ] 2020-05-25 20:25:52.397 [main] ZigWheels_TestCase - Valid Email id is entered
+[INFO ] 2020-05-25 20:25:59.215 [main] ZigWheels_TestCase - Password entered
+[INFO ] 2020-05-25 20:25:59.336 [main] ZigWheels_TestCase - Login with google successful
+[INFO ] 2020-05-25 20:26:24.068 [main] ZigWheels_TestCase - ZigWheels website is opened
+[INFO ] 2020-05-25 20:26:30.999 [main] ZigWheels_TestCase - Upcoming Bikes is selected
+[INFO ] 2020-05-25 20:26:41.468 [main] ZigWheels_TestCase - Honda bike is selected
+[INFO ] 2020-05-25 20:26:51.866 [main] ZigWheels_TestCase - Used Cars in Chennai is selected
+[INFO ] 2020-05-25 20:26:57.753 [main] ZigWheels_TestCase - All Popular model is printed
+[INFO ] 2020-05-25 20:27:14.268 [main] ZigWheels_TestCase - Logout from zigwheels.com website successful
