@@ -13,6 +13,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.interactions.Actions;
@@ -68,9 +69,13 @@ public class ZigWheels_TestCase
 			//Check if parameter passed as 'chrome'
 			else if(browser.equalsIgnoreCase("chrome")){
 				//set path to chromedriver.exe
+				
+				ChromeOptions chromeOptions= new ChromeOptions();
+				chromeOptions.setBinary("C:\\Users\\GD\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe");
+				
 				System.setProperty(zp.getChromeDriver(),System.getProperty("user.dir")+"//Drivers//chromedriver.exe" );
 				//create chrome instance
-				driver = new ChromeDriver();
+				 driver = new ChromeDriver(chromeOptions);
 				//display the appropriate functioning 
 				 logger.info("Google Chrome is opened");
 			}
